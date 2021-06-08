@@ -15,7 +15,7 @@ class Boat {
     World.add(world, this.body);
   }
 
-//to remove ships from the world
+//para remover os navios do mundo
   remove(index) {
     Matter.World.remove(world, boats[index].body);
     boats.splice(index, 1);
